@@ -6,7 +6,7 @@ const seatSchema = new mongoose.Schema(
     seat_number: Number,
     status: Boolean,
     price: Number,
-    roomId: {
+    room_id: {
       type: mongoose.Types.ObjectId,
       ref: "Room",
     },

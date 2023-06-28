@@ -9,7 +9,7 @@ const movieSchema = new mongoose.Schema(
     release_date: Date,
     rating: Number,
     poster: String,
-    categoryId: {
+    category_id: {
       type: mongoose.Types.ObjectId,
       ref: "Category",
     },
